@@ -1,78 +1,78 @@
-✅ Task Management System — PanScience Innovations
-A secure, role-based Task Management System built using the MERN stack, designed to streamline task assignment, tracking, and performance review for Admins and Users. Features include user and task CRUD operations, feedback workflows, performance charts, document attachments, and Docker-based deployment.
+# ✅ Task Management System — PanScience Innovations
 
-🔗 Live Demo:
-🌐 Live App
-📂 GitHub Repo
-📫 Postman Workspace
+[![Deployment](https://img.shields.io/badge/Deployed-Render-green)](https://task-management-panscience-innovations-wcv6.onrender.com/)
+[![Tech: MERN](https://img.shields.io/badge/Tech-MERN-blueviolet)](https://github.com/AnuragRawat92/Task-Management-PanScience-Innovations)
 
-✨ Features
-🔐 Authentication & Authorization
-JWT-based login/registration.
+A secure, role-based Task Management System built using the **MERN stack**, designed to streamline task assignment, tracking, and performance review for Admins and Users. Features include user and task CRUD operations, feedback workflows, performance charts, document attachments, and Docker-based deployment.
 
-Secure role-based routing for Admins and Users.
+### 🔗 Live Demo  
+[🌐 Live App](https://task-management-panscience-innovations-wcv6.onrender.com/)  
+[📂 GitHub Repo](https://github.com/AnuragRawat92/Task-Management-PanScience-Innovations/tree/main)  
+[📫 Postman Workspace](https://web.postman.co/workspace/4c12e23d-bb68-401b-8c94-d56e3addfc0c)
 
-Password hashing with bcrypt.
+---
 
-👑 Admin Dashboard
-Assign, update, and delete tasks.
+## ✨ Features
 
-Review submitted tasks (accept/reject with feedback).
+### 🔐 Authentication & Authorization
+- JWT-based login/registration
+- Secure role-based routing for Admins and Users
+- Password hashing with bcrypt
 
-Monitor user performance via charts.
+### 👑 Admin Dashboard
+- Assign, update, and delete tasks
+- Review submitted tasks (accept/reject with feedback)
+- Monitor user performance via charts
+- Perform user CRUD operations
+- View task analytics and history
 
-Perform user CRUD operations.
+### 🙋 User Dashboard
+- View and manage personal tasks
+- Start, submit, and rework on tasks
+- Track status and admin feedback
+- Edit own profile and password
 
-View task analytics and history.
+### 📊 Analytics
+- Visual task and performance analytics using Chart.js
 
-🙋 User Dashboard
-View and manage personal tasks.
+### 📁 Attachments
+- Upload up to 3 PDF documents per task
+- View/download attachments from task details
 
-Start, submit, and rework on tasks.
+---
 
-Track status and admin feedback.
+## 🧰 Tech Stack
 
-Edit own profile and password.
+| Layer             | Tech                                             |
+|------------------|--------------------------------------------------|
+| **Frontend**     | React, React Router, Bootstrap, Chart.js         |
+| **Backend**      | Node.js, Express.js                              |
+| **Database**     | MongoDB (Mongoose ORM)                           |
+| **Auth**         | JWT, bcrypt                                      |
+| **State Mgmt**   | React Context API                                |
+| **File Upload**  | Multer (local storage)                           |
+| **Visualization**| Chart.js, MDB React                              |
+| **Testing**      | Postman collection                               |
+| **DevOps**       | Docker, Docker Compose, Render for deployment    |
 
-📊 Analytics
-Visual task and performance analytics using Chart.js.
+---
 
-📁 Attachments
-Upload up to 3 PDF documents per task.
+## 🔁 Task Workflow
 
-View/download attachments from task details.
+1. **Admin assigns a task** to a user
+2. **User sees the task**, marks it as In Progress
+3. **User submits task** → Admin reviews and either **approves or rejects**
+4. **Rejected tasks** can be **reworked** and resubmitted by the user
 
-🧰 Tech Stack
-Layer	Tech
-Frontend	React, React Router, Bootstrap, Chart.js
-Backend	Node.js, Express.js
-Database	MongoDB (Mongoose ORM)
-Auth	JWT, bcrypt
-State Mgmt	React Context API
-File Upload	Multer (local storage)
-Visualization	Chart.js, MDB React
-Testing	Postman collection
-DevOps	Docker, Docker Compose, Render for deployment
+---
 
-🔁 Task Workflow
-Admin assigns a task to a user.
+## 🐳 Docker Setup
 
-User sees the task, marks it as In Progress.
+Ensure [Docker](https://docs.docker.com/get-docker/) is installed.
 
-User submits task → Admin reviews and either approves or rejects.
+### 🧪 Run Locally with Docker
 
-Rejected tasks can be reworked and resubmitted by the user.
 
-📸 Screenshots
-Add screenshots or a screen recording here (optional for clarity).
-
-🐳 Docker Setup
-Ensure Docker is installed.
-
-🧪 Run Locally with Docker:
-bash
-Copy
-Edit
 git clone https://github.com/AnuragRawat92/Task-Management-PanScience-Innovations.git
 cd Task-Management-PanScience-Innovations
 docker-compose up --build
@@ -119,36 +119,35 @@ Secure role-based APIs
  Live deployment on Render
 
 🧪 Testing
-All routes tested via Postman.
+All routes tested via Postman
 
-Basic manual integration testing.
+Basic manual integration testing
 
-API documentation included.
+API documentation included
 
 Automated tests using Jest/Mocha can be added for future enhancement.
 
 🧠 Design Decisions
-Used React Context for state management to keep the setup lightweight.
+Used React Context for state management to keep the setup lightweight
 
-Chart.js for easy and effective visual analytics.
+Chart.js for easy and effective visual analytics
 
-Multer with local storage for quick file upload prototyping.
+Multer with local storage for quick file upload prototyping
 
-Kept the architecture modular for ease of extension.
+Kept the architecture modular for ease of extension
 
 📌 Future Improvements
-Add WebSocket for real-time task updates.
+Add WebSocket for real-time task updates
 
-Add automated tests (Jest or Cypress).
+Add automated tests (Jest or Cypress)
 
-Migrate file storage to AWS S3.
+Migrate file storage to AWS S3
 
-Add email notifications for task status updates.
+Add email notifications for task status updates
 
-Implement audit logs for admin actions.
+Implement audit logs for admin actions
 
 👤 Contact
 Anurag Rawat
 📧 anuragrawat92946@gmail.com
 🏫 IET Lucknow
-
