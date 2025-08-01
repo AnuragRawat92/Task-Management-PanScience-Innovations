@@ -76,7 +76,7 @@ Ensure [Docker](https://docs.docker.com/get-docker/) is installed.
 git clone https://github.com/AnuragRawat92/Task-Management-PanScience-Innovations.git
 cd Task-Management-PanScience-Innovations
 docker-compose up --build
-Frontend → http://localhost:3000
+Frontend → http://localhost:5173
 Backend → http://localhost:5000
 
 📂 Folder Structure
