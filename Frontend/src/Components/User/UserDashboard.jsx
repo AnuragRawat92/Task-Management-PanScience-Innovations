@@ -122,7 +122,7 @@ function UserDashboard() {
               <MDBIcon fas icon="check-circle" />
             </div>
             <div className="stats-value">{taskStats.completed}</div>
-            <div className="stats-label">Completed Tasks</div>
+            <div className="stats-label">Tasks Completed</div>
           </div>
         </MDBCol>
 
@@ -132,7 +132,7 @@ function UserDashboard() {
               <MDBIcon fas icon="clock" />
             </div>
             <div className="stats-value">{taskStats.inProgress}</div>
-            <div className="stats-label">In Progress</div>
+            <div className="stats-label">Tasks in Progress</div>
           </div>
         </MDBCol>
 
@@ -142,7 +142,7 @@ function UserDashboard() {
               <MDBIcon fas icon="hourglass-start" />
             </div>
             <div className="stats-value">{taskStats.pending}</div>
-            <div className="stats-label">Pending Tasks</div>
+            <div className="stats-label">Tasks Awaiting Action</div>
           </div>
         </MDBCol>
       </MDBRow>
@@ -165,8 +165,8 @@ function UserDashboard() {
             <Link to="/task-history" className="text-decoration-none">
               <div className="action-card animate-fadeInUp" style={{animationDelay: '0.5s'}}>
                 <MDBIcon fas icon="history" className="action-icon text-info" />
-                <h3 className="action-title">Task History</h3>
-                <p className="action-description">View your completed tasks and performance</p>
+                <h3 className="action-title">Previous Assignments</h3>
+                <p className="action-description">Review your task completions and performance metrics</p>
               </div>
             </Link>
           </MDBCol>
@@ -176,7 +176,7 @@ function UserDashboard() {
               <div className="action-card animate-fadeInUp" style={{animationDelay: '0.6s'}}>
                 <MDBIcon fas icon="user-circle" className="action-icon text-success" />
                 <h3 className="action-title">Profile Settings</h3>
-                <p className="action-description">Update your profile information</p>
+                <p className="action-description">Review & Update Profile</p>
               </div>
             </Link>
           </MDBCol>
