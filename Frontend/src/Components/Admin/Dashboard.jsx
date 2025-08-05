@@ -375,7 +375,7 @@ const AdminDashboard = () => {
               <div className="d-flex justify-content-between align-items-center">
                 <div>
                   <MDBTypography tag='h6' className="fs-6 text-muted mb-2">
-                    {selectedUser === 'all' ? 'Total Users' : 'Total Tasks'}
+                    {selectedUser === 'all' ? 'Registered Users' : 'Total Tasks'}
                   </MDBTypography>
                   <MDBTypography tag='h3' className="mb-0" style={{ color: colors.pink.dark }}>
                     {selectedUser === 'all' ? stats.totalUsers : userStats?.totalTasks || 0}
@@ -397,7 +397,7 @@ const AdminDashboard = () => {
             <MDBCardBody>
               <div className="d-flex justify-content-between align-items-center">
                 <div>
-                  <MDBTypography tag='h6' className="fs-6 text-muted mb-2">Total Tasks</MDBTypography>
+                  <MDBTypography tag='h6' className="fs-6 text-muted mb-2">Overall Task Count</MDBTypography>
                   <MDBTypography tag='h3' className="mb-0" style={{ color: colors.violet.dark }}>
                     {selectedUser === 'all' ? stats.totalTasks : userStats?.totalTasks || 0}
                   </MDBTypography>
