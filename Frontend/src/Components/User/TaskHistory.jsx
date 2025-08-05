@@ -157,7 +157,7 @@ function TaskHistory() {
     <MDBContainer className="py-5">
       <MDBRow className="mb-4">
         <MDBCol>
-          <h2 className="h2 mb-4">Your Past Tasks</h2>
+          <h2 className="h2 mb-4">Previous Assignments</h2>
           
           {/* Stats Cards */}
           <MDBRow className="g-4 mb-4">
@@ -166,7 +166,7 @@ function TaskHistory() {
                 <MDBCardBody className="text-center">
                   <MDBIcon fas icon="tasks" size="2x" className="mb-3 text-primary" />
                   <h3 className="h4 mb-2">{stats.total}</h3>
-                  <p className="text-muted mb-0">Total Tasks Completed</p>
+                  <p className="text-muted mb-0">Task Completion Count</p>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
@@ -175,7 +175,7 @@ function TaskHistory() {
                 <MDBCardBody className="text-center">
                   <MDBIcon fas icon="exclamation-circle" size="2x" className="mb-3 text-danger" />
                   <h3 className="h4 mb-2">{stats.highPriority}</h3>
-                  <p className="text-muted mb-0">High Priority Completed</p>
+                  <p className="text-muted mb-0">High Priority Tasks Done</p>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
@@ -193,7 +193,7 @@ function TaskHistory() {
                 <MDBCardBody className="text-center">
                   <MDBIcon fas icon="chart-line" size="2x" className="mb-3 text-success" />
                   <h3 className="h4 mb-2">{((stats.highPriority + stats.mediumPriority) / stats.total * 100).toFixed(0)}%</h3>
-                  <p className="text-muted mb-0">High/Medium Priority Ratio</p>
+                  <p className="text-muted mb-0">Priority Distribution</p>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
