@@ -2,6 +2,12 @@
 
 > 🌐 **Live Demo:** [https://task-management-panscience-innovations-wcv6.onrender.com](https://task-management-panscience-innovations-wcv6.onrender.com)
 ---
+# 📫 Postman Workspace
+
+> 🧪 API Collection (Public Workspace):  
+[https://web.postman.co/workspace/4c12e23d-bb68-401b-8c94-d56e3addfc0c](https://web.postman.co/workspace/4c12e23d-bb68-401b-8c94-d56e3addfc0c)
+
+---
 # 🧪 Test Credentials
 
 ### 👑 Admin Login
