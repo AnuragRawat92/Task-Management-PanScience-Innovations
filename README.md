@@ -2,7 +2,17 @@
 
 > 🌐 **Live Demo:** [https://task-management-panscience-innovations-wcv6.onrender.com](https://task-management-panscience-innovations-wcv6.onrender.com)
 ---
+# 🧪 Test Credentials
 
+### 👑 Admin Login
+- **Email:** anuragrawat92946@gmail.com  
+- **Password:** Anurag92@
+
+### 🙋 User Login
+- **Email:** anuragrawat7776@gmail.com  
+- **Password:** Anurag
+
+---
 # ✅ Task Management System — PanScience Innovations
 
 [![Deployment](https://img.shields.io/badge/Deployed-Render-green)](https://task-management-panscience-innovations-wcv6.onrender.com/)
