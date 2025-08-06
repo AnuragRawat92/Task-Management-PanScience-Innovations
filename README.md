@@ -168,7 +168,7 @@ Add email notifications for task status updates
 
 Implement audit logs for admin actions
 ---
-👤 Contact
-Anurag Rawat
-📧 anuragrawat92946@gmail.com
-🏫 IET Lucknow
+#👤 Contact
+-Anurag Rawat
+-📧 anuragrawat92946@gmail.com
+-🏫 IET Lucknow
