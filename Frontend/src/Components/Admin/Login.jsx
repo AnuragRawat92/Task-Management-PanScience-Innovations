@@ -154,7 +154,7 @@ const AdminLogin = () => {
 
             <MDBCol md="10" lg="6" className="order-1 order-lg-2 auth-image-section">
               <MDBCardImage 
-                src="https://img.freepik.com/premium-vector/image-3d-paper-tablet-pink-background_627230-339.jpg"
+                src="https://framerusercontent.com/images/qwbrwtiOzNgYpnoWe7rBcVDA8.jpg"
                 fluid
                 className="auth-image"
                 alt="Admin Login"
