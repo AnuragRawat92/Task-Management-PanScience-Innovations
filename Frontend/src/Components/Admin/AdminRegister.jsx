@@ -135,7 +135,7 @@ const AdminSignUp = () => {
 
             <MDBCol md="10" lg="6" className="order-1 order-lg-2 auth-image-section">
               <MDBCardImage 
-                src="https://img.freepik.com/premium-vector/image-3d-paper-tablet-pink-background_627230-339.jpg"
+                src="https://img.freepik.com/premium-vector/3d-white-clipboard-task-management-todo-check-list-pink-background-efficient-work-project-plan-concept-assignment-exam-productivity-solution-icon-3d-icon-vector-render-illustration_412828-1443.jpg"
                 fluid
                 className="auth-image"
                 alt="Admin Registration"
