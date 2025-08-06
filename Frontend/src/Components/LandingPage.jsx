@@ -51,7 +51,7 @@ const LandingPage = () => {
                     size="lg"
                   >
                     <span className="button-label">
-                      <span className="button-text">Admin Access</span>
+                      <span className="button-text">I'm an Admin</span>
                       <span className="button-arrow">→</span>
                     </span>
                     <span className="button-overlay"></span>
@@ -63,7 +63,7 @@ const LandingPage = () => {
                     size="lg"
                   >
                     <span className="button-label">
-                      <span className="button-text">User Access</span>
+                      <span className="button-text">I'm a User</span>
                       <span className="button-arrow">→</span>
                     </span>
                     <span className="button-overlay"></span>
