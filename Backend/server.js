@@ -5,7 +5,7 @@ import apiRouter from "./src/routes/apiRouter.js";
 import { PORT } from "./src/config/serverConfig.js";
 import { FRONTEND } from "./src/config/serverConfig.js";
 import { connectDB } from "./src/config/dbConfig.js";
-
+// build express app
 const app = express();
 const httpServer = createServer(app);
 
