@@ -6,7 +6,7 @@ import { isAuthenticated } from "../../middleware/authValidation.js";
 import { validRegistartionAdmin } from "../../middleware/validRegistrationAdmin.js";
 import jwt from 'jsonwebtoken';
 
-
+// routes
 
 const userRouter = express.Router();
 
