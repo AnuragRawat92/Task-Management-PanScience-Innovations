@@ -13,7 +13,8 @@ console.log("CORS allowed origin:", FRONTEND);
 // CORS configuration
 const allowedOrigins = [
 "https://task-management-panscience-innovations-wcv6.onrender.com",
-  "http://localhost:5173"
+  "http://localhost:5173",
+  "http://localhost:5174"
 ];
 
 app.use(cors({
