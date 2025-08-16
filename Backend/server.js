@@ -16,7 +16,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174"
 ];
-
+// cors setup
 app.use(cors({
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.includes(origin)) {
